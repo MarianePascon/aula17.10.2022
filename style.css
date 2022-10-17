@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body{
+    font-family: 'Inria sans';
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalho div{
+    margin: 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #0468BF;
+    width: 100%;
+}
+
+.menu li {
+    padding-left: 30px;
+}
+
+.menu li a {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+}
+.banner img{
+    border-radius: 10px;
+    width: 70%;
+}
+
+.servicos{
+    background-color: #F29F05;
+    border-radius: 10px;
+}
+.servicos h1{
+    background-color: #f5e9d9;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 3%;
+}
+.servi{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.servi div img{
+    width: 200px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.container div{
+    background-color: #f5e9d9;
+    padding: 10px;
+    border-radius: 10px;
+}
+.noticias h2{
+    color: #F26A4B;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.noticias ul{
+    list-style: none;
+    font-family: 'Inria Serif';
+}
+
+.noticias ul li a{
+   margin: 5px;
+   font-size: 18px;
+}
+
+.noticias button{
+    border: none;
+    background-color: #F26A4B;
+    color: #f5e9d9;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    margin: 15px;
+    padding: 3px;
+}
+
+.acessibilidade h3{
+    color: #F26A4B;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.acessibilidade button{
+    border: none;
+    background-color: #F26A4B;
+    color: #f5e9d9;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    margin: 15px;
+    padding: 3px;
+}
+
+.acessibilidade p{
+    font-size: 18px;
+    font-family: 'Inria Serif';
+}
+
+.jornal h4{
+    color: #F26A4B;
+    padding-bottom: 0px;
+    font-size: 30px;
+}
+
+.jornal img{
+    width: 130px;
+   margin-left: 50px;
+}
+
+.busca{
+    background-color: #f5e9d9;
+    width: 800px;
+    padding-left: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.busca h5{
+    color: #F26A4B;
+    font-size: 30px;
+}
+.busca input{
+    width: 400px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid #F26A4B;
+    margin-bottom: 20px;
+}
+
+.busca button{
+    background-color: #F26A4B;
+    color: #f5e9d9;
+    font-size: 18px;
+    padding: 3px;
+    border: none;
+    border-radius: 5px;
+}
+.caixa{
+    display: flex;
+    justify-content: space-around;
+}
