@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Inria sans';
+    background-color: #f5e9d9;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabecalho div {
+    margin: 10px;
+}
+
+.menu1 {
+    width: 41px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #0468BF;
+    width: 100%;
+    padding: 0;
+}
+
+.menu li {
+    padding-left: 0;
+}
+
+.menu li a {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+h1{
+    color: #0468BF;
+    margin-top: 50px;
+    margin-left: 15%;
+}
+
+h3{
+    margin-left: 18%;
+    color: #0477BF;
+}
+h4{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+p{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 50px;
+}
+
+.manu{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.imagem{
+    display: flex;
+    justify-content: space-around;
+}
+span{
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 10%;
+}
+
+.rodape footer {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    height: 300px;
+    background-color: #0477BF;
+    color: white;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
+
+.direita1 button {
+    background-color: #F29F05;
+    border: none;
+    height: 25px;
+    margin-left: 15px;
+}
+
+.direita1 button a {
+    text-decoration: none;
+}
+
+.direita1 img {
+    margin-bottom: -15px;
+    margin-top: 15px;
+}
+
+hr {
+    width: 50%;
+    margin-top: 45px;
+}
